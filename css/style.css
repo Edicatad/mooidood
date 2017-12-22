@@ -19,19 +19,20 @@ body {
         width:1200px;
         max-width:90%;
         display:inline-flex;
+        flex-wrap:wrap;
         margin:auto;
 }
 
 .header-logo {
-        width:400px;
-        max-width:90%;
+        width:300px;
         order:2;
         display:inline-flex;
+        justify-content:center;
+        margin:auto;
 }
 
 .header-column {
-        width:400px;
-        max-width:90%;
+        width:450px;
         display:inline-flex;
 }
 
@@ -45,15 +46,19 @@ body {
 
 .menu-button {
         display:inline-block;
-        padding:10px 0;
         width:100%;
         text-align:center;
+        padding:30px 20px 10px;
+}
+
+.menu-button:hover {
+        background-color:#1f1f1f;
 }
 
 .logo {
-        margin:auto;
-        width:90px;
-        height:90px;
+        margin:10px;
+        width:60px;
+        height:60px;
         order:2;
 }
 
@@ -64,6 +69,7 @@ body {
 .logo-name {
         color: white;
         text-align: center;
+        margin:auto 0;
 }
 
 .row {
