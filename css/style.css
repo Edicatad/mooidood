@@ -1,4 +1,5 @@
 body {
+        font-family: 'Source Sans Pro';font-size: 22px;
         margin:0;
         color: grey;
         background-color:whitesmoke;
@@ -8,16 +9,42 @@ body {
         visibility:visible !important;
 }
 
-.sidebar {
-        position:fixed;
-        width:220px;
-        padding:10px;
-        margin: -30px 0 0 0;
+.header-wrapper {
+        display:inline-flex;
+        width:100%;
         background-color:black;
 }
 
+.header {
+        width:1200px;
+        max-width:90%;
+        display:inline-flex;
+        margin:auto;
+}
+
+.header-logo {
+        width:400px;
+        max-width:90%;
+        order:2;
+        display:inline-flex;
+}
+
+.header-column {
+        width:400px;
+        max-width:90%;
+        display:inline-flex;
+}
+
+.right {
+        order:3;
+}
+
+.left {
+        order:1;
+}
+
 .menu-button {
-        display:block;
+        display:inline-block;
         padding:10px 0;
         width:100%;
         text-align:center;
@@ -25,8 +52,9 @@ body {
 
 .logo {
         margin:auto;
-        width:180px;
-        height:180px;
+        width:90px;
+        height:90px;
+        order:2;
 }
 
 .logo svg path {
