@@ -51,6 +51,8 @@ body {
         width:100%;
         text-align:center;
         padding:30px 20px 10px;
+        text-decoration: none;
+        color: white;
 }
 
 .menu-button:hover {
